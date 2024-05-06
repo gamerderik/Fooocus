@@ -29,9 +29,9 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 3.0,
+    "default_cfg_scale": 6.0,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_sampler": "DPM++ 2S a",
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
@@ -43,7 +43,7 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "realism-engine-sdxl-v30.safetensors": "https://civitai.com/api/download/models/293240?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+        "realism-engine-sdxl-v30.safetensors": "https://civitai.com/api/download/models/293240"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
