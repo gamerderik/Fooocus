@@ -1,5 +1,5 @@
 {
-    "default_model": "juggernaut_X_v10.safetensors",
+    "default_model": "juggernaut_X_v9.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -31,7 +31,7 @@
     ],
     "default_cfg_scale": 4.0,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "DPM++2M karras",
+    "default_sampler": "DPM++2M",
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
@@ -43,7 +43,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "juggernaut_X_v10.safetensors": "https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors?download=true"
+        "juggernaut_X_v9.safetensors": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
