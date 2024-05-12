@@ -1,5 +1,5 @@
 {
-    "default_model": "RealVisXL_V4.0",
+    "default_model": "RealVisXL_V4.0.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -43,11 +43,11 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "RealVisXL_V4.0": "https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors?download=true"
+        "RealVisXL_V4.0.safetensors": "https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
     },
-    "previous_default_models": ["RealVisXL_V4.0"]
+    "previous_default_models": ["RealVisXL_V4.0.safetensors"]
 }
