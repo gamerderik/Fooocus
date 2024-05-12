@@ -1,5 +1,5 @@
 {
-    "default_model": "realism-engine-sdxl-v30.safetensors",
+    "default_model": "RealVisXL_V4.0",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -31,11 +31,11 @@
     ],
     "default_cfg_scale": 6.0,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "DPM++ 2S a",
+    "default_sampler": "DPM++ 2M",
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, deformed, ugly, blurry, bad anatomy, bad proportions, extra limbs, cloned face, skinny, glitchy, double torso, extra arms, extra hands, mangled fingers, missing lips, ugly face, distorted face, extra legs, anime",
+    "default_prompt_negative": "(face asymmetry, eyes asymmetry, deformed eyes, open mouth)",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Photograph",
@@ -43,11 +43,11 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "realism-engine-sdxl-v30.safetensors": "https://civitai.com/api/download/models/293240"
+        "RealVisXL_V4.0.safetensors": "https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
     },
-    "previous_default_models": ["realism-engine-sdxl-v30.safetensors"]
+    "previous_default_models": ["RealVisXL_V4.0.safetensors"]
 }
